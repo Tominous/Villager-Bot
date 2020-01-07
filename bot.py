@@ -4,7 +4,7 @@ from os import system
 import json
 
 #set window title
-#system("title Minecraft Translator Discord Bot")
+system("title Minecraft Translator Discord Bot")
 
 bot = commands.Bot(command_prefix='!!', help_command=None, case_insensitive=True)
 cogs = ["cmds", "events", "owner", "msgs",
